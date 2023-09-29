@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Leaflet Step-1</title>
+  <title>USGS Data of Earthquakes From The Past Seven Days</title>
 
   <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin="" />
 
-  <!-- Our CSS -->
+  <!-- My CSS Code-->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 
@@ -20,14 +20,20 @@
 
   <!-- The div that holds our map -->
   <div id="map"></div>
-
+  <div class="map-title">USGS Data of Earthquakes From The Past Seven Days</div>
+ 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
+  
   <!-- D3 JavaScript -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <!-- Our JavaScript -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  
+  <!-- MomentJS -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+  
+  <!-- My JavaScript Code -->
   <script type="text/javascript" src="static/js/logic.js"></script>
 </body>
 

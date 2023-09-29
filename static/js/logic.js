@@ -26,7 +26,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
 // Access tectonic plate data and put it into a map layergroup
 let tectplates = new L.layerGroup();
-d3.json("https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json").then(
+d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(
     function(response2){
         console.log(response2);
         L.geoJson(response2, {color: "yellow", weight: 3}).addTo(tectplates);
@@ -90,8 +90,7 @@ function makeInfoLegend(date){
     legend2.onAdd = function() {
         let div2 = L.DomUtil.create("div", "info legend");
         div2.innerHTML = "<b>Magnitude of Earthquake Indicated by Colored Circle</b><br>"
-            + "<center>(Click on a circle for earthquake information.)</center><hr>"
-            + "<center>Data Provided by the <a href='https://usgs.gov/'>The United States Geological Survey,</a></center><hr>"
+            + "<center> -- Click on a circle for earthquake information. --</center><hr>"
             + "<center>Last Updated on " + date + "</center>";
         return div2;
     };
@@ -114,3 +113,4 @@ legend1.onAdd = function() {
     return div1;
 };
 legend1.addTo(mainMap);
+
