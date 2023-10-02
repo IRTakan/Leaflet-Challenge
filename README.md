@@ -49,4 +49,4 @@ Topographic View:
 
 *Technologies used: Microsoft Visual Studio Code.
 
-*Languages used: JavaScript & HTML.
+*Languages used: JavaScript, HTML & CSS.
