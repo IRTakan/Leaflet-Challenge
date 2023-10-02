@@ -17,7 +17,7 @@ To complete this task I had to:
 
 Import and visualize the data by doing the following:
 
-- Using Leaflet, create a map that plots all the earthquakes from the dataset based on their longitude and latitude.
+- Using Leaflet to create a map that plots all the earthquakes from the dataset based on their longitude and latitude.
 
 - Make sure that the data markers reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.
 
@@ -31,13 +31,13 @@ Street View (Default):
 
 --Part 2: Gather and Plot More Data--
 
-- Plot on my map where it illustartes the relationship between tectonic plates and seismic activity. Make sure the earthquakes are also included. 
+- Plot on the map where it illustartes the relationship between tectonic plates and seismic activity. Making sure the earthquakes are also included. 
 
-- Add other base maps to choose from.
+- Include other base maps to choose from.
 
 - Put each dataset into separate overlays that can be turned on and off independently.
 
-- Add layer controls to your map.
+- Add layer controls to the map.
 
 Satellite View:
 
