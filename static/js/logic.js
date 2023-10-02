@@ -29,7 +29,7 @@ let tectplates = new L.layerGroup();
 d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(
     function(response2){
         console.log(response2);
-        L.geoJson(response2, {color: "yellow", weight: 3}).addTo(tectplates);
+        L.geoJson(response2, {color: "red", weight: 3}).addTo(tectplates);
 });
 
 // Define base layers that can be selected on the map
