@@ -20,6 +20,8 @@ Import and visualize the data by doing the following:
 
 - Create a legend that will provide context for your map data.
 
+<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/earthquake.png" width=700 height=350>
+
 --Part 2: Gather and Plot More Data--
 
 - Plot on my map where it illustartes the relationship between tectonic plates and seismic activity. Make sure the earthquakes are also included. 
@@ -29,6 +31,10 @@ Import and visualize the data by doing the following:
 - Put each dataset into separate overlays that can be turned on and off independently.
 
 - Add layer controls to your map.
+
+<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/earthquake%26tectonoc.png" width=700 height=350>
+
+<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/tectonic.png" width=700 height=350>
 
 *Technologies used: Microsoft Visual Studio Code.
 
