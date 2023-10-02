@@ -4,6 +4,10 @@ In this challenge i'm using The United States Geological Survey earthqauke datas
 
 The USGS is interested in building a new set of tools that will allow them to visualize their earthquake data. They collect large amounts of data from all over the world each day, but they lack a meaningful way of displaying it. I have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
+- Deployment 
+
+Click this link to access the website: 
+
 To complete this task I had to:
 
 --Part 1: Create the Earthquake Visualization--
