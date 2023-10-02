@@ -50,7 +50,7 @@ var mapTopo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
 var baseLayers = {    
     Satellite: mapSat,
     Topographic: mapTopo,
-    Street: mapStreet
+    Street_View: mapStreet
 };
 
 // Define function to set the color of a marker based on earthquake depth
@@ -67,7 +67,7 @@ function depthColor(depth) {
 var mainMap = L.map("map", {
     center: [37.09024, -95.712891], 
     zoom: 5,
-    layers: [mapStreet, mapSat, mapTopo]
+    layers: [mapStreet, mapSat, mapTopo, ]
 });
 
 // Create object containing the overlay layers
