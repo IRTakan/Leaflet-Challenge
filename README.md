@@ -41,11 +41,11 @@ Street View (Default):
 
 Satellite View:
 
-<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/earthquake%26tectonoc.png" width=700 height=350>
+<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/tectonic.png" width=700 height=350>
 
 Topographic View:
 
-<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/tectonic.png" width=700 height=350>
+<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/earthquake%26tectonic.png" width=700 height=350>
 
 *Technologies used: Microsoft Visual Studio Code.
 
