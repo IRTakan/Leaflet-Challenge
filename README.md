@@ -25,6 +25,8 @@ Import and visualize the data by doing the following:
 
 - Create a legend that will provide context for your map data.
 
+Street View (Default):
+
 <img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/earthquake.png" width=700 height=350>
 
 --Part 2: Gather and Plot More Data--
@@ -37,7 +39,11 @@ Import and visualize the data by doing the following:
 
 - Add layer controls to your map.
 
+Satellite View:
+
 <img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/earthquake%26tectonoc.png" width=700 height=350>
+
+Topographic View:
 
 <img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/tectonic.png" width=700 height=350>
 
