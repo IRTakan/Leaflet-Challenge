@@ -4,6 +4,11 @@ In this challenge i'm using The United States Geological Survey earthqauke datas
 
 The USGS is interested in building a new set of tools that will allow them to visualize their earthquake data. They collect large amounts of data from all over the world each day, but they lack a meaningful way of displaying it. I have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
+----------------------------------------------------------------------------------------
+Click this link to access the website: https://irtakan.github.io/Leaflet-Challenge/
+
+----------------------------------------------------------------------------------------
+
 To complete this task I had to:
 
 --Part 1: Create the Earthquake Visualization--
@@ -20,6 +25,10 @@ Import and visualize the data by doing the following:
 
 - Create a legend that will provide context for your map data.
 
+Street View (Default):
+
+<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/earthquake.png" width=700 height=350>
+
 --Part 2: Gather and Plot More Data--
 
 - Plot on my map where it illustartes the relationship between tectonic plates and seismic activity. Make sure the earthquakes are also included. 
@@ -29,6 +38,14 @@ Import and visualize the data by doing the following:
 - Put each dataset into separate overlays that can be turned on and off independently.
 
 - Add layer controls to your map.
+
+Satellite View:
+
+<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/earthquake%26tectonoc.png" width=700 height=350>
+
+Topographic View:
+
+<img src="https://github.com/IRTakan/Leaflet-Challenge/blob/main/Images/tectonic.png" width=700 height=350>
 
 *Technologies used: Microsoft Visual Studio Code.
 
